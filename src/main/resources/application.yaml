@@ -1,3 +1,5 @@
 spring:
   application:
     name: hello-world
+server:
+  port: ${PORT:8080}
